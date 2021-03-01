@@ -10,8 +10,19 @@ export default function Home() {
       </Head>
 
       <div>
+        LR AUDIO
         <audio className="audio-element" controls>
           <source src="./music/audio1.flac"></source>
+        </audio>
+
+        CLICK
+        <audio className="audio-element" controls>
+          <source src="./music/click.mp3"></source>
+        </audio>
+
+        TRACKS
+        <audio className="audio-element" controls>
+          <source src="./music/tracks.mp3"></source>
         </audio>
       </div>
       
